@@ -11,6 +11,8 @@ use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
 use Jenssegers\Agent\Agent;
+use yii\web\Response;
+use yii\widgets\ActiveForm;
 
 class SiteController extends Controller
 {
